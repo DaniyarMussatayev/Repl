@@ -7,29 +7,22 @@ public class Repl97 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the browser name to proceed further with execution");
 		String browser = sc.nextLine();
-
-		browser = browser.toLowerCase();
-		String result = "";
-		switch (browser) {
-		case "chrome":
-			result = "Chrome";
+		browser =browser.toLowerCase();
+		
+		switch(browser) {
+		case"chrome":
+			System.out.println("Proceed with Chrome browser");
 			break;
-		case "firefox":
-			result = "Firefox";
+		case"firefox":
+			System.out.println("Proceed with Firefox browser");
 			break;
-		case "ie":
-			result = "IE";
+		case"ie":
+			System.out.println("Proceed with IE browser");
 			break;
 		default:
+			System.out.println("Invalid browser");
 			break;
 		}
-		if (!result.isEmpty()) {
-			System.out.printf("Proceed with %s browser", result);
-		} else {
-			System.out.println("Invalid browser");
-		}
-
-		sc.close();
 	}
 }
 
