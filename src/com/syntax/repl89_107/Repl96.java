@@ -4,27 +4,25 @@ import java.util.Scanner;
 
 public class Repl96 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter any programming language");
-		String language = sc.nextLine();
-
-		language = language.toLowerCase();
-		switch (language) {
-		case "java":
-			System.out.println("Java is a programming language");
-			break;
-		case "c":
-			System.out.println("C is a procedural programming language");
-			break;
-		case "c++":
-			System.out.println("C++ is a middle-level programming language");
-			break;
-		default:
-			System.out.println("Doesn't match any programming language");
-		}
-
-		sc.close();
-	}
+		  Scanner scan = new Scanner(System.in); 
+		  System.out.println("Enter any programming language");
+		   String language = scan.nextLine();
+		   switch(language){
+		   case "Java":
+			   System.out.println("Java is a programming language");
+			   break;
+		   case "C":
+			   System.out.println("C is a procedural programming language");
+			   break;
+		   case "C++":
+			   System.out.println("C++ is a middle-level programming language");
+			   break;
+		   default:
+			   System.out.println("Doesn't match any programming language");
+			   break;
+		   }
+		  
+		  }
 
 }
 
