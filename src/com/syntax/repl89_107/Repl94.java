@@ -4,10 +4,8 @@ public class Repl94 {
 	public static void main(String[] args) {
 		String str = "I love Java classes at Syntax";
 
-		int index1 = str.indexOf("classes");
-
-		System.out.println(str.substring(index1));
-		System.out.println(str.substring(0, index1 - 1));
+		System.out.println(str.substring(11).trim());
+		System.out.println(str.substring(0,11));
 
 	}
 
