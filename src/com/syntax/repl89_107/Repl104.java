@@ -6,14 +6,14 @@ public class Repl104 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String[] arr = new String[5];
-		// leave above alone! write your code below
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = input.next();
+	
+		for (int i=0; i<arr.length; i++) {
+			arr[i]=input.nextLine();
+			if(arr[i].length()>=3) {
+				System.out.println(arr[i].substring(0,3));
+			}
 		}
-		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i].substring(0, 3));
-		}
-
+		
 	}
 }
 
