@@ -2,12 +2,12 @@ package com.syntax.repl89_107;
 
 public class Repl106 {
 	public static void main(String[] args) {
-
-		StringBuffer str = new StringBuffer("Hello");
-		str.append(" world");
-		String str1 = str.toString();
-		System.out.println(str1.toUpperCase());
-
+		StringBuffer word =new StringBuffer("Hello");
+		
+		word.append(" World");
+		String str = word.toString();
+	
+		System.out.println(str.toUpperCase());
 	}
 }
 
