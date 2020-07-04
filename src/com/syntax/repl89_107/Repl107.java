@@ -8,6 +8,9 @@ public class Repl107 {
 		reverse=reverse+word.charAt(i);	
 		}System.out.println(reverse);
 	
+		
+		
+		
 	}
 
 }
