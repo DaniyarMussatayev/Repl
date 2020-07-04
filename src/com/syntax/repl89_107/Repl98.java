@@ -2,9 +2,11 @@ package com.syntax.repl89_107;
 
 public class Repl98 {
 	public static void main(String[] args) {
-		String str = "Hello Syntax friends";
-		str = str.replace("Hello", "Welcome").replace("friends", "family");
-		System.out.println(str);
+		String given ="Hello Syntax freinds";
+		String give1=given.replace("Hello", "Welcome");
+		give1 = give1.replace("friends", "family");
+	
+		System.out.println(give1);
 	}
 
 }

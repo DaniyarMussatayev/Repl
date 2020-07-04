@@ -5,22 +5,32 @@ import java.util.Scanner;
 public class Repl99 {
 	public static void main(String[] args) {
 		Scanner inp = new Scanner(System.in);
-		System.out.print("In:");
-		String givenString = inp.nextLine();
-		// write your code below
+	    System.out.print("In:");
+	    String givenString = inp.nextLine();
 		givenString = givenString.replace(" ","");
-		String reverseWord = "";
-		for (int i = givenString.length() - 1; i >= 0; i--) {
-			reverseWord += givenString.charAt(i);
-		}
-		
-		boolean result = true;
-		if (givenString.equalsIgnoreCase(reverseWord)) {
-			System.out.println(result);
-		} else {
-			System.out.println(!result);
-		}
 
+	 
+	    String reverse ="";
+	    boolean palindrome;
+        
+        
+	    
+	    for (int i =givenString.length()-1; i>=0;i--) {
+	    	reverse =reverse+givenString.charAt(i);
+	    	
+	    	
+	    	
+	    }
+	    if(givenString.equalsIgnoreCase(reverse)) {
+	    	palindrome=true;
+	    	System.out.print(palindrome);
+	    }else {
+	    	palindrome=false;
+	    	System.out.print(palindrome);
+	    }
+	   
+	    
+	    
 	}
 }
 
