@@ -2,10 +2,12 @@ package com.syntax.repl89_107;
 
 public class Repl107 {
 	public static void main(String[] args) {
-		String str= "Hello Friends";
-		StringBuffer str1 = new StringBuffer();
-		str1.append(str);
-		System.out.println(str1.reverse());
+		StringBuffer word =new StringBuffer("Hello Friends");
+		String reverse="";
+		for (int i =word.length()-1; i>=0;i--) {
+		reverse=reverse+word.charAt(i);	
+		}System.out.println(reverse);
+	
 	}
 
 }
