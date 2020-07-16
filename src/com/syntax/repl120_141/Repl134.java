@@ -1,6 +1,24 @@
 package com.syntax.repl120_141;
 
 public class Repl134 {
+	//test case below (dont change):
+		public static void main(String[] args){
+			System.out.println(countVowels("obama")); //3
+			System.out.println(countVowels("happy friday! i love weekends")); //9
+		}
+		static int countVowels(String s) {
+			int count=0;
+			for(int i=0;i<s.length();i++) {
+				if(s.charAt(i)=='a' || s.charAt(i)=='e' || s.charAt(i)=='i' || s.charAt(i)=='o' || s.charAt(i)=='u' ) {
+					count++;
+				}
+			}
+			return count;
+
+		}
+		//OR instructor's way
+//		String count = s.replaceAll("[^aA,eE,iI,oO,uU]", "");
+//		return count.length();
 
 }
 

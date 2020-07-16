@@ -1,19 +1,21 @@
 package com.syntax.repl120_141;
 
 public class Repl133 {
-	static String countA(String s) {
-		String total = "";
+	static int countA(String s) {
 		int count = 0;
+		char a='a';
+		char aA='A';
 		for (int i = 0; i < s.length(); i++) {
-			total = total + s.charAt(i);
-			if (total.equalsIgnoreCase("a")) {
-				for (int j=0;j<total.length();j++) {
-					System.out.println(j);
-				}
+			if (s.charAt(i)==a || s.charAt(i)==aA) {
+				count++;
 			}
+			
+			}
+	
+		return count;
+
 		}
-		return total;
-	}
+	
 
 	public static void main(String[] args) {
 		System.out.println(countA("aaA")); // 3
