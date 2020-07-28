@@ -1,4 +1,4 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
 public interface OutputsRepl177 {
 	 void display(double result);

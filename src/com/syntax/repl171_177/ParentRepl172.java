@@ -1,4 +1,4 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
 public abstract class ParentRepl172 {
 	public void m2() {

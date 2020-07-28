@@ -1,21 +1,7 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
-public class MainRepl176 implements ParentInterfaceRepl176, ChildInterfaceRepl176{
-	public void parentMethod() {
-		System.out.println("Parent Method-welcome to Syntax");
-	}
-	public void childMethod() {
-		System.out.println("Child Method-hello Syntax");
-	}
-	public static void main(String[] args) {
-		ChildInterfaceRepl176 o=new MainRepl176();
-		o.parentMethod();
-		o.childMethod();
-		
-	
-	}
-	
-
+public interface ChildInterfaceRepl176 extends ParentInterfaceRepl176 {
+	public void childMethod();
 }
 //***Follow steps carefully
 //Step 1: Create Parent Interface as ParentInterface that will have undefined method parentMethod without parameters.
@@ -26,3 +12,4 @@ public class MainRepl176 implements ParentInterfaceRepl176, ChildInterfaceRepl17
 //Expected Output:
 //Parent Method-welcome to Syntax
 //Child Method-hello Syntax
+

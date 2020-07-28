@@ -1,4 +1,4 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
 public class MainRepl177 implements FunctionsRepl177 {
 	  public double adding (double firstNumber, double secondNumber) {

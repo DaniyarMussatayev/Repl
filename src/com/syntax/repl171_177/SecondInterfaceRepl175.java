@@ -1,9 +1,10 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
-public interface FirstInterfaceRepl175 {
-	public void firstMethod();
+public interface SecondInterfaceRepl175 {
+	public void secondMethod();
 
 }
+
 //Interfaces
 //**Follow Steps Carefully.
 //Step1: Create Interface as FirstInterface and create undefined method as firstMethod (without parameter)

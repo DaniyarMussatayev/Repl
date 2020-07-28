@@ -1,4 +1,4 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
 public class MainRepl175 implements FirstInterfaceRepl175, SecondInterfaceRepl175 {
 	public void firstMethod() {

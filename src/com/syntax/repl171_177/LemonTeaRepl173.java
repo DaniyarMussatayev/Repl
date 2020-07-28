@@ -1,14 +1,16 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
-public abstract class TeaParentRepl173 {
-	String teaType;
-	public TeaParentRepl173(String teaType) {
-		this.teaType=teaType;
+public class LemonTeaRepl173 extends TeaParentRepl173 {
+	public LemonTeaRepl173(String teaType) {
+		super(teaType);
 	}
-	public abstract void addSugar();
+	public void addSugar() {
+		System.out.println("For " +teaType+ " we need 2 spoons of sugar");
+	}
+	
+	
 
 }
-
 //Abstraction
 //Create a Super Class Tea that will have:
 //instance variable teaType;

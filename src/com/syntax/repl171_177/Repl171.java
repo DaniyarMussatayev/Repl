@@ -1,12 +1,18 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
-public abstract class PatentRepl171 {
-	public abstract void m1();
-	public abstract void m1(String str);
-	
-	public static void main(String[] args) {
-		
+public class Repl171 extends PatentRepl171 {
+	public void m1() {
+		System.out.println("m1 without parameters");
 	}
+	public void m1(String str) {
+		System.out.println("m1 method with parameter");
+	}
+	public static void main(String[] args) {
+		PatentRepl171 o=new Repl171();
+		o.m1();
+		o.m1("hello");
+	}
+
 }
 //Abstraction
 //Create a Parent Class that will have two overloaded abstract methods m1

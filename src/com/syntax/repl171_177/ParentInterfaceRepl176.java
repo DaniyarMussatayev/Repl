@@ -1,7 +1,8 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
-public interface ChildInterfaceRepl176 extends ParentInterfaceRepl176 {
-	public void childMethod();
+public interface ParentInterfaceRepl176 {
+	public void parentMethod();
+
 }
 //***Follow steps carefully
 //Step 1: Create Parent Interface as ParentInterface that will have undefined method parentMethod without parameters.
@@ -12,4 +13,3 @@ public interface ChildInterfaceRepl176 extends ParentInterfaceRepl176 {
 //Expected Output:
 //Parent Method-welcome to Syntax
 //Child Method-hello Syntax
-

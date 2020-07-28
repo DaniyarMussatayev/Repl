@@ -1,4 +1,4 @@
-package com.synytax.repl171_177;
+package com.syntax.repl171_177;
 
 public class ChaiTeaRepl173 extends LemonTeaRepl173 {
 	public ChaiTeaRepl173(String teaType) {
