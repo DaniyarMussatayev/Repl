@@ -13,19 +13,17 @@ public class ListRepl194 {
 		countries.add("Pakistan");
 		countries.add("Russia");
 		countries.add("Azerbaijan");
-		
-		Iterator<String> it =countries.iterator();
-		while(it.hasNext()) {
-			if(it.next().equals("USA" || "Rissia")) {
-				
+
+		Iterator<String> it = countries.iterator();
+		while (it.hasNext()) {
+			String a = it.next();
+			if (a.startsWith("A")) {
+				it.remove();
 			}
-				
-			
 		}
+		System.out.println(countries);
 	}
 }
-
-
 
 //For you to do:
 //

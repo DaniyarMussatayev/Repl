@@ -1,8 +1,31 @@
 package com.syntax.repl178_194;
 
+import java.util.ArrayList;
+
 public class ListRepl192 {
+	public static boolean ifPrime(int num) {
+		if (num == 2) {
+			return true;
+		} else {
+			for (int i = 2; i < num; i++) {
+				if (num % i == 0) {
+					return false;
+				}
+
+			}
+		}
+		return true;
+	}
+
 	public static void main(String[] args) {
-		
+		ArrayList<Integer> list = new ArrayList<>();
+
+		for (int i = 2; i <= 100; i++) {
+			if (ifPrime(i)) {
+				list.add(i);
+			}
+		}
+		System.out.println(list);
 	}
 
 }
