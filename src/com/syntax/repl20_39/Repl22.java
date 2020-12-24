@@ -3,22 +3,17 @@ package com.syntax.repl20_39;
 import java.util.Scanner;
 
 class Repl22 {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter your name");
-		String name = scanner.next();
-
-		String str = scanner.nextLine();
-
-		System.out.println("Enter your mobile number");
-		String phone = scanner.nextLine();
-
-		System.out.println("Enter your age");
-		int age = scanner.nextInt();
-
-		System.out.printf("Your name is %s, your age is %d and your mobile number is %s", name, age, phone);
-		scanner.close();
-	}
+	 public static void main (String[] args){
+		    Scanner scan = new Scanner(System.in);
+		    System.out.println("Enter your name");
+		    String name = scan.nextLine();
+		    System.out.println("Enter your mobile number");
+		    String num = scan.nextLine();
+		    System.out.println("Enter your age");
+		    int age = scan.nextInt();
+		    System.out.println("Your name is " + name + " , your age is "
+		    + age + " and your mobile number is " + num);
+		  }
 
 }
 

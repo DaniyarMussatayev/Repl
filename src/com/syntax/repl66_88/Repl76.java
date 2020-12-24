@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Repl76 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		String[] array = new String[7];
 
-		for (int i = 0; i < array.length; i++) {
-			System.out.printf("Please enter day %d of the week%n", i + 1);
-			array[i] = scan.next();
+		String[] days = new String[7];
+		for (int i = 0; i < days.length; i++) {
+			System.out.println("Please enter day " + (i + 1) + " of the week");
+			days[i] = scan.next();
+
 		}
-		for (String days : array) {
-			System.out.println(days);
+		for (int i = 0; i <= days.length - 1; i++) {
+			System.out.println(days[i]);
 		}
-		scan.close();
 	}
 
 }

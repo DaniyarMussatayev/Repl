@@ -3,41 +3,28 @@ package com.syntax.repl40_65;
 import java.util.Scanner;
 
 public class Repl42 {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("enter the roll number of the child");
+	 public static void main(String[] args) {
+		    Scanner sc = new Scanner (System.in);
+		   
+		 System.out.println("enter the roll number of the Child"); 
+		 
+		   int rollnumber  = sc.nextInt(); 
+		   switch(rollnumber){
 
-		try {
-
-			int rollNumber = scanner.nextInt();
-			String name = "null";
-
-			switch (rollNumber) {
-
-			case 101:
-				name = "Ramesh";
-				break;
-			case 102:
-				name = "Mahesh";
-				break;
-			case 103:
-				name = "Mukesh";
-				break;
-			default:
-				System.out.println("Not found Student name: in Class");
-				break;
-			}
-
-			if (!name.equals("null")) {
-				System.out.printf("Student name: %s ", name);
-			}
-		} catch (Exception e) {
-			System.out.println("Invalid input. Enter numbers only.");
+		    case 101:
+		    System.out.println("Student name: Ramesh");
+		    break;
+		   case 102:
+		    System.out.println("Student name: Mahesh");
+		    break;
+		   case 103:
+		    System.out.println("Student name: Mukesh");
+		      break;
+		     
+		      default:
+		       System.out.println("Not found Student name: in Class");
+		  }
 		}
-
-		scanner.close();
-
-	}
 }
 
 //For you to do:

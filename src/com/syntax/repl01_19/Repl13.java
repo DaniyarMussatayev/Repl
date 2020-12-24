@@ -1,15 +1,19 @@
 package com.syntax.repl01_19;
 
 public class Repl13 {
-	public static void main(String[] args) {
-		int myNumber = 5;
-		int stepOne = myNumber * 2;
-		int stepTwo = stepOne * 2;
-		int stepThree = stepTwo / myNumber;
-		int stepFour = stepThree + 17;
-		int stepFive = stepFour / 6;
-		System.out.printf("The magic number is %d!", stepFive);
-	}
+	public static void main (String[] args){
+	    int myNumber = 8;
+	    int stepOne = myNumber*myNumber;
+	    int stepTwo = stepOne + myNumber;
+	    int stepThree = stepTwo / myNumber;
+	    int stepFour = stepThree + 17;
+	    int stepFive = stepFour - myNumber;
+	    int stepSix = stepFive / 6;
+	    System.out.println("The magic number is " + stepSix + "!");
+	    
+	    
+	    
+	  }
 }
 
 //Math Magic

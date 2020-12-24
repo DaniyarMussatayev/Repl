@@ -3,29 +3,30 @@ package com.syntax.repl40_65;
 import java.util.Scanner;
 
 public class Repl44 {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please enter your favorite car make");
-		String carOrigin = scanner.next();
+	public static void main (String[] args){
+	    Scanner scan = new Scanner(System.in);
+	    System.out.println("Please enter your favorite car make");
+	    String car = scan.nextLine();
+	    String carOrigin;
+	    switch (car){
+	      case "BMW":
+	        carOrigin = "german car";
+	        break;
+	      case "Toyota":
+	        carOrigin = "japanese car";
 
-		switch (carOrigin.toLowerCase()) {
-		case "bmw":
-			carOrigin = "german car";
-			break;
-		case "toyota":
-			carOrigin = "japanese car";
-			break;
-		case "maserati":
-			carOrigin = "italian car";
-			break;
-		default:
-			carOrigin = "unknown";
-			break;
-		}
-		System.out.printf("Your favorite car is %s", carOrigin);
-
-		scanner.close();
-	}
+	        break;
+	      case "Maserati":
+	        carOrigin = "italian car";
+	        break;
+	        
+	      default:
+	      carOrigin = "unknown";
+	      break;
+	      
+	    }
+	     System.out.println("Your favorite car is " + carOrigin);
+	  }
 
 }
 

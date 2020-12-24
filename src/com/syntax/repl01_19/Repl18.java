@@ -1,10 +1,12 @@
 package com.syntax.repl01_19;
 
 public class Repl18 {
-	public static void main(String[] args) {
-		long num = (long) 500.4444;
-		System.out.printf("%d", num);
-	}
+	public static void main (String[] args){
+	    double x = 500.4444;
+	    long y = (long) x;
+	    System.out.println(y);
+	    
+	  }
 
 }
 

@@ -1,10 +1,13 @@
 package com.syntax.repl01_19;
 
 public class Repl17 {
-	public static void main(String[] args) {
-		int mod = -21 % 4;
-		System.out.printf("%d", mod);
-	}
+	public static void main (String[] args){
+	    int num1, num2, mod;
+	    num1 = -21;
+	    num2 = 4;
+	    mod = num1 % num2;
+	    System.out.println (mod);
+	  }
 }
 
 //For you to do:

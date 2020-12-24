@@ -5,26 +5,14 @@ import java.util.Scanner;
 public class Repl65 {
 	public static void main(String[] args) {
 		Scanner inp = new Scanner(System.in);
+		int x;
 		System.out.print("In:");
+		x = inp.nextInt();
 
-		try {
-
-			int x = inp.nextInt();
-			if (x > 0) {
-				for (int i = x - 1; i >= 0; i--) {
-					System.out.printf("%d ", i);
-				}
-			} else {
-				for (int i = x - 1; i <= 0; i++) {
-					System.out.printf("%d ", i);
-				}
-
-			}
-
-		} catch (Exception e) {
-			System.err.println("Invalid input. Enter numbers only!");
+		for (int a = (x - 1); a >= 0; a--) {
+			System.out.print(a + " ");
 		}
-		inp.close();
+
 	}
 }
 

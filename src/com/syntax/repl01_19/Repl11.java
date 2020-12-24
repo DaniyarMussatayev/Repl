@@ -1,14 +1,11 @@
 package com.syntax.repl01_19;
 
 public class Repl11 {
-	public static void main(String[] args) {
-		int width = 5, height = 8;
-		int perimeter = (width + height) * 2;
-		int area = width * height;
-		System.out.printf(
-				"The perimeter of a rectangle with width %d and height %d is equals to %d and the area equals to %d",
-				width, height, perimeter, area);
-	}
+	public static void main (String[] args){
+	    int width = 5;
+	    int height = 8;
+	    System.out.println ("The perimeter of a rectangle with width " + width + " and height " + height + " is equals to " + (2*(width+height)) + " and the area equals to " + (width*height));
+	  }
 }
 
 //For you to do:

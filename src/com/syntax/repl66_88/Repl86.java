@@ -2,11 +2,10 @@ package com.syntax.repl66_88;
 
 public class Repl86 {
 	public static void main(String[] args) {
-		Main obj = new Main();
-		obj.name = "John";
-		obj.roll_no = 2;
-
-		System.out.printf("Name is %s and roll number is %d", obj.name, obj.roll_no);
+		 Main c1=new Main();
+		  c1.name="John";
+		  c1.roll_no = 2;
+		  System.out.println ("Name is " + c1.name + " and roll number is " + c1.roll_no);
 
 	}
 

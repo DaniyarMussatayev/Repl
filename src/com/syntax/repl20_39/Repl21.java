@@ -3,13 +3,13 @@ package com.syntax.repl20_39;
 import java.util.Scanner;
 
 class Repl21 {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter your age");
-		int age = scanner.nextInt();
-		System.out.printf("Your age after 10 years is %d", age + 10);
-		scanner.close();
-	}
+	public static void main (String[] args){
+	    Scanner scan = new Scanner(System.in);
+	    System.out.println ("Enter your age");
+	    int age = scan.nextInt();
+	    int futures = age + 10;
+	    System.out.println ("Your age after 10 years is " + futures);
+	  }
 
 }
 

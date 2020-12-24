@@ -1,14 +1,20 @@
 package com.syntax.repl01_19;
 
 public class Repl10 {
-	public static void main(String[] args) {
-		int num1 = 200, num2 = 100;
-		int sum = num1 + num2;
-		int subt = num1 - num2;
-		int mult = num1 * num2;
-		int div = num1 / num2;
-		System.out.printf("%d%n%d%n%d%n%d%n", sum, subt, mult, div);
-	}
+	 public static void main (String[] args){
+		    int num1, num2, sum, sub, mult, div;
+		    num1 = 200;
+		    num2 = 100;
+		    sum = num1 + num2;
+		    sub = num1 - num2;
+		    mult = num1 * num2;
+		    div = num1 / num2;
+		    System.out.println (sum);
+		    System.out.println (sub);
+		    System.out.println (mult);
+		    System.out.println (div);
+		    
+		  }
 }
 
 //For you do to:
